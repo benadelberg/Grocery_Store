@@ -60,3 +60,8 @@ CREATE TABLE Suppliers (
     ContactInfo TEXT UNIQUE
 )
 """)
+
+conn.commit()
+conn.close()
+
+print("Database schema updated successfully")
